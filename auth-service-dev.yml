@@ -1,5 +1,17 @@
 server:
   port: 8081
 
-custom:
-  message: Hello from Config Server
+spring:
+  datasource:
+    url: jdbc:postgresql://fincore-postgres:5432/fincore
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://fincore-eureka-server:8761/eureka
