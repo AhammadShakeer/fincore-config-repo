@@ -18,4 +18,4 @@ eureka:
 
 jwt:
   secret: fincore-secret-key-fincore-secret-key
-  expiration: 3600000
+  expiration: 86400000
