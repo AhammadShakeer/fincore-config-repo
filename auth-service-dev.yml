@@ -17,5 +17,5 @@ eureka:
       defaultZone: http://fincore-eureka-server:8761/eureka
 
 jwt:
-  secret: fincore-secret-key
+  secret: fincore-secret-key-fincore-secret-key
   expiration: 3600000
